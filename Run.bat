@@ -1,0 +1,3 @@
+@echo off
+echo Launching Python Chatbot...
+python "%~dp0ollama_chatbot.py"
