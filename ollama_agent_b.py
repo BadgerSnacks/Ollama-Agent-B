@@ -140,6 +140,7 @@ while chatting:
 
     if user_input == "#ping":
         _ip = input("What is the address: ").strip()
+        print("Checking that IP for you...") #placehold while logic runs
         ping_text = ping_with_ollama(_ip)
 
         content = (
@@ -160,6 +161,8 @@ while chatting:
     if user_input == "#quit":
         print("Goodbye")
         break
+
+    print("Thinking...") #placehold while logic runs.
 
     memory_text = "\n".join(memory)  # Joins memory to a text line
 
