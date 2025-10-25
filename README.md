@@ -1,6 +1,6 @@
 # Ollama-Agent-B
 A personal AI agent built around the Ollama API
-api used in project. https://github.com/ollama/ollama
+https://github.com/ollama/ollama
 
 Instructions:
 Ollama must be installed on host system for this agent to work.
